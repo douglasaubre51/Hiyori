@@ -1,13 +1,15 @@
 package com.forge.Hiyori.dtos;
 
-import java.sql.Date;
-import java.sql.Time;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 
 import lombok.Data;
 
 @Data
 public class EventDto {
+
+    private long id;
 
     private String title;
 
@@ -17,8 +19,8 @@ public class EventDto {
 
     private String details;
 
-    private Date eventDate;
-    private Time eventTime;
+    private LocalDate eventDate;
+    private LocalTime eventTime;
 
     private String thumbnail;
 
