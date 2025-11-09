@@ -1,7 +1,5 @@
 package com.forge.Hiyori.entities;
 
-import java.sql.Date;
-import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
